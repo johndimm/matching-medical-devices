@@ -1,5 +1,5 @@
-# Download the data from Access GUDID.
-./download.sh
+# Unzip the file downloaded earlier.
+rm *.txt
 unzip GUDID.zip
 
 # Load the device file into the database.

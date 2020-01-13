@@ -1,6 +1,3 @@
-# Download the source data in json format.
-./download.sh
-
 # Extract SQL create table and csv file from json.
 ./prepare.sh
 

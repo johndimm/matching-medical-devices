@@ -18,7 +18,8 @@ match exactly.
 #### Install and run the scripts
 
 * Create an empty mysql database.
-* On the command line, run the run.sh script in the root directory.
+* On the command line, run the step1.sh script in the root directory to download the data.
+* Run step2.sh to do the rest, in about 30 minutes.
 
 
 #### Method

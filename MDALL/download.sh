@@ -1,3 +1,5 @@
+rm *.json
+
 # Active Device Identifier
 curl -o active_device_id.json https://health-products.canada.ca/api/medical-devices/deviceidentifier/?state=active&type=json
 

@@ -1,0 +1,10 @@
+max(length(device_identifier))	max(length(original_licence_no))
+50	6
+max(length(device_identifier))	max(length(original_licence_no))
+50	6
+max(length(licence_name))	max(length(original_licence_no))	max(length(company_id))
+143	6	6
+max(length(licence_name))	max(length(original_licence_no))	max(length(company_id))
+149	6	6
+max(length(company_name))	max(length(company_id))
+89	6

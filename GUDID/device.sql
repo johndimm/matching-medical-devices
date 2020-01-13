@@ -1,0 +1,40 @@
+drop table if exists device;
+create table device 
+(
+PrimaryDI text,
+publicDeviceRecordKey text,
+publicVersionStatus text,
+deviceRecordStatus text,
+publicVersionNumber text,
+publicVersionDate text,
+devicePublishDate text,
+deviceCommDistributionEndDate text,
+deviceCommDistributionStatus text,
+brandName text,
+versionModelNumber text,
+catalogNumber text,
+dunsNumber text,
+companyName text,
+deviceCount text,
+deviceDescription text,
+DMExempt text,
+premarketExempt text,
+deviceHCTP text,
+deviceKit text,
+deviceCombinationProduct text,
+singleUse text,
+lotBatch text,
+serialNumber text,
+manufacturingDate text,
+expirationDate text,
+donationIdNumber text,
+labeledContainsNRL text,
+labeledNoNRL text,
+MRISafetyStatus text,
+rx text,
+otc text,
+deviceSterile text,
+sterilizationPriorToUse text
+);
+
+load data local infile 'device.txt' into table device fields terminated by '\|';
